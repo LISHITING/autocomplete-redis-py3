@@ -39,9 +39,9 @@ au = Autocomplete ("scope")
 for item in items:
   au.add_item (item)
 #search
-restuls = au.search_query ('hel')
+results = au.search_query ('hel')
 
-print results
+print (results)
 [{'term': 'what the hell or yell', 'score': 10, 'uid': '2'}, {'term': "hello world, that's great", 'score': 9, 'uid': '1'}]
 ```
 

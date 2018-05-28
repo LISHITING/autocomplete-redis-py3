@@ -49,7 +49,7 @@ print (results)
 API
 ---------------
 以下部分与原项目API基本一致。
-The following API disruption remain unchanged.
+The following API discriptions remain unchanged.
 
 * Convention: the item you pass to `autocomplete-py3` should have at least `"uid"` and `"term"`, `"score"` is optional, but it's important if you want to return based on ranking. And you could have other fields as you like.
 
